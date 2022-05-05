@@ -1,23 +1,25 @@
 import styled, {keyframes} from "styled-components"
 
 export const Background = styled.div`
-    height: 100vh;
+    position: fixed;
     display: flex;
+    width: 100%;
+    /* height: 100%; */
     justify-content: center;
     align-items: center;
-    background: black;
+    overflow-x: hidden;
 `
 
 export const BGBody = styled.body`
     display: table;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     background-color: #171717;
     color: black;
     line-height: 1.7;
     position: relative;
     font-family: sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
     justify-content: center;
     align-items: center;
 `
@@ -25,7 +27,15 @@ export const BGBody = styled.body`
 export const HomeH1 = styled.h1`
     color: darkgray;
     font-size: 8rem;
-    font-weight: 900;
+    font-weight: 600;
+    text-align: center;
+`
+
+export const H2 = styled.h2`
+    color: darkgray;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: sans-serif;
     text-align: center;
 `
 

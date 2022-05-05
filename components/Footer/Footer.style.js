@@ -13,6 +13,7 @@ export const FooterContainer = styled.nav`
 `
 export const StyledLink = styled.a`
 	color: gold;
+    z-index: 4;
 	padding: 0rem 1rem;
     text-align: center;
 	&:hover{
