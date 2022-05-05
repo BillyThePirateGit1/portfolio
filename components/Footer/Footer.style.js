@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
-export const FooterContainer = styled.nav`
-    position: fixed;
+export const FooterContainer = styled.div`
+    /* position: fixed; */
     width: 100%;
 	height: 80px;
     bottom: 0;
