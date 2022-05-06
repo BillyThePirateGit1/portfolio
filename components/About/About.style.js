@@ -11,7 +11,7 @@ const caret = keyframes`
     50% { border-color: gold; }
 `
 
-export const HeroBody = styled.div`
+export const AboutBody = styled.div`
     display: inline-flex;
     align-items: center;
     justify-content: center;

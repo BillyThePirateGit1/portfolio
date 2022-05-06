@@ -3,7 +3,7 @@ import { Background, BGBody, HomeH1, Line, LineContainer, H2, HRStyle } from './
 import { createGlobalStyle } from 'styled-components'
 import Layout from './../components/Layout/Layout'
 import Hero from './../components/Hero/Hero'
-import { useEffect } from 'react/cjs/react.production.min';
+import About from './../components/About/About'
 
 const GlobalStyles = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600&display=swap');
@@ -24,7 +24,7 @@ export default function Home() {
       </Head>
       <GlobalStyles/>
       <Hero/>
-      
+      <About/>
     </Layout>
   )
 }

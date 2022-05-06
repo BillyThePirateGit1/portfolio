@@ -11,7 +11,7 @@ export default function Navbar(){
             </Link>
         </div>
         <div>
-            <Link href='/about' passHref>
+            <Link href='#about' passHref>
                 <StyledLink> About </StyledLink>
             </Link>
             <Link href='/projects' passHref>
