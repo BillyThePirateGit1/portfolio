@@ -11,18 +11,39 @@ export const Background = styled.div`
 `
 
 export const BGBody = styled.body`
-    display: table;
+    /* display: inline-flex; */
     width: 100%;
-    /* height: 100%; */
+    text-align: center;
     background-color: #171717;
     color: black;
     line-height: 1.7;
     position: relative;
-    font-family: sans-serif;
     overflow-x: hidden;
     justify-content: center;
     align-items: center;
 `
+
+export const HRStyle = styled.hr`
+    height: 30px; 
+    border-style: solid; 
+    border-color: gold; 
+    border-width: 1px 0 0 0; 
+    border-radius: 20px; 
+    width: 40%;
+
+    &:before{
+        display: block; 
+        content: ""; 
+        height: 30px; 
+        color: gold;
+        margin-top: -31px; 
+        border-style: solid; 
+        border-color: #8c8b8b; 
+        border-width: 0 0 1px 0; 
+        border-radius: 20px; 
+    }
+`
+
 
 export const HomeH1 = styled.h1`
     color: darkgray;
@@ -34,8 +55,8 @@ export const HomeH1 = styled.h1`
 export const H2 = styled.h2`
     color: darkgray;
     font-size: 2rem;
-    font-weight: 400;
-    font-family: sans-serif;
+    font-weight: 300;
+    /* font-family: sans-serif; */
     text-align: center;
 `
 
